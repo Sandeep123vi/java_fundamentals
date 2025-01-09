@@ -2,15 +2,15 @@ import java.util.*;
 
 class Interest {
 	public static void main(String [] args){
-		Scanner scan = new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter Principal amount");
-		int principal = scan.nextInt();
+		int principal = sc.nextInt();
 		
 		System.out.println("Enter Rate");
-		int rate = scan.nextInt();
+		int rate = sc.nextInt();
 		
 		System.out.println("Enter Time");
-		int time = scan.nextInt();
+		int time = sc.nextInt();
 		
 		double simpleInterest = (principal * rate * time)/100;
 		
